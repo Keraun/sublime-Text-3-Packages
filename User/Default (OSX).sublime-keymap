@@ -1,0 +1,75 @@
+[
+    //--------------------------open browser start------------------------------
+    //快速复制文件路径
+    {
+        "keys": ["ctrl+f8"],
+        "command": "copy_path"
+    },
+    //打开浏览器快捷键(以markdown形式预览)
+    {
+        "keys": ["ctrl+f9"],
+        "command": "markdown_preview",
+        "args": {
+            "target": "browser"
+        }
+    },
+    //打开IE浏览器
+    {
+        "keys": ["ctrl+f10"],
+        "command": "open_in_browser"
+    },
+    //打开Safari浏览器
+    {
+        "keys": ["ctrl+f11"],
+        "command": "side_bar_files_open_with",
+        "args": {
+            "paths": [],
+            "application": "/Applications/Safari.app/Contents/MacOS/Safari",
+            "extensions": ".*"
+        }
+    },
+    //打开Chrome浏览器
+    {
+        "keys": ["ctrl+f12"],
+        "command": "side_bar_files_open_with",
+        "args": {
+            "paths": [],
+            "application": "/Applications/Google Chrome.app",
+            "extensions": ".*"
+        }
+    },
+    //--------------------------open browser end------------------------------
+    {
+        "keys": ["super+shift+c"],
+        "command": "color_pick"
+    },
+     //--------------------------html数组拼接------------------------------
+    {
+        "keys": ["ctrl+alt+1"],
+        "command": "quote_html",
+        "args": {
+            "action": "single-ws-ar"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+2"],
+        "command": "quote_html",
+        "args": {
+            "action": "single-ar"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+3"],
+        "command": "quote_html",
+        "args": {
+            "action": "single"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+4"],
+        "command": "quote_html",
+        "args": {
+            "action": "single-ws"
+        }
+    }
+]
